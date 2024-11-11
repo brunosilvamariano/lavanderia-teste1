@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Higienização | Lavanderia</title>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="home" class="container-fluid py-5 d-flex align-items-center min-vh-100" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo e Informações da Empresa -->
+                <div class="col-12 text-center text-lg-start" data-aos="fade-left" data-aos-duration="1500">
+                    <figure class="mb-4">
+                        <img src="assets/images/logo.png" alt="Logo da Lavanderia" width="150" height="auto">
+                    </figure>
+                </div>
+                <!-- Conteúdo Principal -->
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                    <section aria-labelledby="section-title">
+                        <!-- Selo de Disponibilidade -->
+                        <div class="mb-3" aria-live="polite" data-aos="zoom-in" data-aos-duration="1500">
+                            <span class="badge bg-success rounded-pill py-2 px-3" role="status">
+                                <i class="bi bi-circle-fill me-1" aria-hidden="true"></i>
+                                <strong class="space">Disponível para Atendimento</strong>
+                            </span>
+                        </div>
+                        <!-- Título Principal -->
+                        <h1 id="section-title" class="display-4 fw-lighter text-dark-emphasis" aria-label="Título dos serviços" data-aos="fade-up" data-aos-duration="1500">Serviços de Lavanderia Profissional</h1>
+                        <!-- Descrição do Serviço -->
+                        <p class="h4 text-muted mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                            <span class="fw-bold yellow text-primary">Cuidados de Qualidade</span> para suas roupas e itens especiais.
+                        </p>
+                        <p class="lead text-secondary mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                            Cuidamos de suas roupas com serviços de <strong>lavagem</strong> e <strong>higienização de alta qualidade</strong>, garantindo conveniência e resultados impecáveis.
+                        </p>
+                        <!-- Botão de WhatsApp -->
+                        <div class="d-flex justify-content-center justify-content-lg-start" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                            <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+                            class="btn-custom btn-whatsapp text-white" 
+                            aria-label="Agendar um horário pelo WhatsApp" 
+                            target="_blank">
+                                <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
+                                Quero agendar uma higienização
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Imagem Principal -->
+                <div class="col-12 col-lg-6 text-center text-lg-end mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="1500">
+                    <figure aria-labelledby="image-description">
+                        <img src="assets/images/banner-header.png" alt="Imagem ilustrativa de serviços de lavanderia" class="img-fluid img-hover" aria-describedby="image-description">
+                        <figcaption id="image-description" class="visually-hidden">Imagem representando serviços de lavanderia e cuidados com roupas.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Conteúdo Principal -->
+    <main>
+      <!-- Seção de Serviços -->
+        <section id="servicos" class="py-5" aria-labelledby="titulo-servicos">
+            <div class="container">
+                <!-- Título da Seção -->
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h2 id="titulo-servicos" class="display-5 text-primary fw-bold fs-2" data-aos="fade-in" data-aos-duration="1200">
+                        Nossos Serviços
+                    </h2>
+                    <p class="text-muted mx-auto fs-5" style="max-width: 600px;" data-aos="fade-in" data-aos-duration="1400">
+                        Oferecemos serviços de qualidade para cuidar das suas roupas e tecidos especiais.
+                    </p>
+                </div>
+
+                <!-- Lista de Serviços -->
+                <div class="row">
+                    <!-- Card 1: Lavagem de Roupas -->
+                    <article class="col-md-6 col-lg-4 mb-4" aria-labelledby="servico1" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-sm d-flex align-items-center justify-content-center">
+                            <header class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                                <img src="assets/images/icon4.svg" alt="Ícone Lavagem de Roupas" class="mb-3" style="width: 80px; height: 80px;">
+                                <h3 id="servico1" class="card-title fw-bold">Lavagem de Roupas</h3>
+                                <p class="card-text text-muted text-center">
+                                    Lavagem cuidadosa para garantir roupas limpas e bem cuidadas.
+                                </p>
+                            </header>
+                        </div>
+                    </article>
+                    
+                    <!-- Card 2: Passadoria -->
+                    <article class="col-md-6 col-lg-4 mb-4" aria-labelledby="servico2" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-sm d-flex align-items-center justify-content-center bg-body-secondary">
+                            <header class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                                <img src="assets/images/icon3.svg" alt="Ícone Passadoria" class="mb-3" style="width: 80px; height: 80px;">
+                                <h3 id="servico2" class="card-title fw-bold">Passadoria</h3>
+                                <p class="card-text text-center">
+                                    Passadoria profissional para roupas bem alinhadas.
+                                </p>
+                            </header>
+                        </div>
+                    </article>
+                    
+                    <!-- Card 3: Higienização -->
+                    <article class="col-md-6 col-lg-4 mb-4" aria-labelledby="servico3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 border-0 shadow-sm d-flex align-items-center justify-content-center">
+                            <header class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                                <img src="assets/images/icon2.svg" alt="Ícone Higienização de Tapetes" class="mb-3" style="width: 80px; height: 80px;">
+                                <h3 id="servico3" class="card-title fw-bold">Higienização</h3>
+                                <p class="card-text text-muted text-center">
+                                    Higienização profunda para tapetes e estofados.
+                                </p>
+                            </header>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Costura -->
+                    <article class="col-md-6 col-lg-4 mb-4" aria-labelledby="servico4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100 border-0 shadow-sm d-flex align-items-center justify-content-center bg-body-secondary">
+                            <header class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                                <img src="assets/images/icon1.svg" alt="Ícone Costura" class="mb-3" style="width: 80px; height: 80px;">
+                                <h3 id="servico4" class="card-title fw-bold">Costura</h3>
+                                <p class="card-text text-muted text-center">
+                                    Pequenos reparos para prolongar a vida útil das suas peças.
+                                </p>
+                            </header>
+                        </div>
+                    </article>
+
+                    <!-- Card 5: Remoção de Manchas -->
+                    <article class="col-md-6 col-lg-4 mb-4" aria-labelledby="servico5" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card h-100 border-0 shadow-sm d-flex align-items-center justify-content-center">
+                            <header class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                                <img src="assets/images/icon5.svg" alt="Ícone Remoção de Manchas" class="mb-3" style="width: 80px; height: 80px;">
+                                <h3 id="servico5" class="card-title fw-bold">Remoção de Manchas</h3>
+                                <p class="card-text text-muted text-center">
+                                    Tratamento específico para remoção de manchas difíceis.
+                                </p>
+                            </header>
+                        </div>
+                    </article>
+
+                    <!-- Card 6: Delivery -->
+                    <article class="col-md-6 col-lg-4 mb-4" aria-labelledby="servico6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card h-100 border-0 shadow-sm d-flex align-items-center justify-content-center bg-body-secondary">
+                            <header class="card-body text-center d-flex flex-column align-items-center justify-content-center">
+                                <img src="assets/images/icon6.svg" alt="Ícone Delivery" class="mb-3" style="width: 80px; height: 80px;">
+                                <h3 id="servico6" class="card-title fw-bold">Delivery</h3>
+                                <p class="card-text text-muted text-center">
+                                    Coleta e entrega para maior conveniência e conforto.
+                                </p>
+                            </header>
+                        </div>
+                    </article>
+
+                    <!-- Botão de WhatsApp -->
+                    <div class="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="700">
+                        <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+                        class="btn-custom btn-whatsapp text-white" 
+                        aria-label="Agendar um horário pelo WhatsApp" 
+                        target="_blank">
+                            <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
+                            Quero agendar uma higienização
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Informações -->
+        <section id="beneficios" class="py-5 bg-body-secondary">
+            <div class="container">
+                <!-- Título da Seção -->
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary fs-2" data-aos="fade-in" data-aos-duration="1200">Por que escolher a Limpa Estilo</h2>
+                </div>
+
+                <!-- Lista de Benefícios -->
+                <div class="row text-center justify-content-center">
+                    <!-- Benefício 1: Economia de Tempo -->
+                    <article class="col-12 col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="800">
+                        <i class="bi bi-clock-fill fs-4 text-primary mb-2"></i> <!-- Ícone de relógio -->
+                        <div>
+                            <h3 class="fw-bold fs-5">Economia de tempo</h3>
+                            <p>Você pode usar nossos serviços da maneira que for conveniente – a escolha é sua.</p>
+                        </div>
+                    </article>
+
+                    <!-- Linha Horizontal de Divisão em Dispositivos Móveis -->
+                    <div class="col-12 d-md-none mb-4">
+                        <hr class="border border-secondary">
+                    </div>
+
+                    <!-- Linha Vertical de Divisão em Dispositivos Grandes -->
+                    <div class="col-md-1 d-none d-md-flex justify-content-center">
+                        <div class="border-end" style="height: 100%;"></div>
+                    </div>
+
+                    <!-- Benefício 2: Economia de Dinheiro -->
+                    <article class="col-12 col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="900">
+                        <i class="bi bi-wallet-fill fs-4 text-primary mb-2"></i> <!-- Ícone de carteira -->
+                        <div>
+                            <h3 class="fw-bold fs-5">Economia de dinheiro</h3>
+                            <p>Serviços de qualidade com ótimo custo-benefício para atender suas necessidades.</p>
+                        </div>
+                    </article>
+
+                    <!-- Linha Horizontal de Divisão em Dispositivos Móveis -->
+                    <div class="col-12 d-md-none mb-4">
+                        <hr class="border border-secondary">
+                    </div>
+
+                    <!-- Linha Vertical de Divisão em Dispositivos Grandes -->
+                    <div class="col-md-1 d-none d-md-flex justify-content-center">
+                        <div class="border-end" style="height: 100%;"></div>
+                    </div>
+
+                    <!-- Benefício 3: Ecologicamente Correto -->
+                    <article class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="1000">
+                        <i class="bi bi-tree-fill fs-4 text-primary mb-2"></i> <!-- Ícone de árvore -->
+                        <div>
+                            <h3 class="fw-bold fs-5">Ecologicamente correto</h3>
+                            <p>Estamos comprometidos com práticas sustentáveis para o meio ambiente.</p>
+                        </div>
+                    </article>
+
+                    <!-- Botão de WhatsApp (com animação de "zoom-in") -->
+                    <div class="d-flex justify-content-center mt-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+                        <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+                        class="btn-custom btn-whatsapp text-white" 
+                        aria-label="Agendar um horário pelo WhatsApp" 
+                        target="_blank">
+                            <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
+                            Quero agendar uma higienização
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Nossos Trabalhos -->
+        <section id="gallery" class="py-5" aria-labelledby="gallery-title" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container">
+                <!-- Título da Seção -->
+                <header class="text-center mb-5">
+                    <h2 id="gallery-title" class="section-title fs-2 text-primary fw-bold">Nossos Trabalhos</h2>
+                </header>
+
+                <!-- Carrossel de Trabalhos -->
+                <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" aria-labelledby="gallery-title">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <article class="carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1">
+                            <div class="row g-4">
+                                <div class="col-md-4 col-12 mb-4">
+                                    <div class="gallery-card position-relative overflow-hidden">
+                                        <img src="https://via.placeholder.com/800x450?text=Trabalho+1" class="d-block w-100 img-fluid" alt="Imagem de Trabalho 1">
+                                        <div class="overlay text-white d-flex align-items-center justify-content-center">
+                                            <p class="fw-bold">Trabalho 1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-4">
+                                    <div class="gallery-card position-relative overflow-hidden">
+                                        <img src="https://via.placeholder.com/800x450?text=Trabalho+2" class="d-block w-100 img-fluid" alt="Imagem de Trabalho 2">
+                                        <div class="overlay text-white d-flex align-items-center justify-content-center">
+                                            <p class="fw-bold">Trabalho 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-4">
+                                    <div class="gallery-card position-relative overflow-hidden">
+                                        <img src="https://via.placeholder.com/800x450?text=Trabalho+3" class="d-block w-100 img-fluid" alt="Imagem de Trabalho 3">
+                                        <div class="overlay text-white d-flex align-items-center justify-content-center">
+                                            <p class="fw-bold">Trabalho 3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Slide 2 -->
+                        <article class="carousel-item" role="group" aria-roledescription="slide" aria-label="Slide 2">
+                            <div class="row g-4">
+                                <div class="col-md-4 col-12 mb-4">
+                                    <div class="gallery-card position-relative overflow-hidden">
+                                        <img src="https://via.placeholder.com/800x450?text=Trabalho+4" class="d-block w-100 img-fluid" alt="Imagem de Trabalho 4">
+                                        <div class="overlay text-white d-flex align-items-center justify-content-center">
+                                            <p class="fw-bold">Trabalho 4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-4">
+                                    <div class="gallery-card position-relative overflow-hidden">
+                                        <img src="https://via.placeholder.com/800x450?text=Trabalho+5" class="d-block w-100 img-fluid" alt="Imagem de Trabalho 5">
+                                        <div class="overlay text-white d-flex align-items-center justify-content-center">
+                                            <p class="fw-bold">Trabalho 5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 mb-4">
+                                    <div class="gallery-card position-relative overflow-hidden">
+                                        <img src="https://via.placeholder.com/800x450?text=Trabalho+6" class="d-block w-100 img-fluid" alt="Imagem de Trabalho 6">
+                                        <div class="overlay text-white d-flex align-items-center justify-content-center">
+                                            <p class="fw-bold">Trabalho 6</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Indicadores personalizados -->
+                    <div class="d-flex justify-content-center mt-4" aria-label="Indicadores de slides da galeria">
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active mx-2" aria-current="true" aria-label="Slide 1" style="background-color: #3785ec; border: none; width: 50px; height: 5px; transition: all 0.3s;"></button>
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" class="mx-2" aria-label="Slide 2" style="background-color: #3785ec; border: none; width: 50px; height: 5px; transition: all 0.3s;"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção Faq -->
+        <section class="faq-section py-5" id="faq" aria-labelledby="faq-title">
+            <div class="container">
+                <header class="text-center mb-5 bg-transparent">
+                    <h2 id="faq-title" class="section-title text-primary fw-bold mb-4 fs-2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-delay="200">
+                        Perguntas Frequentes
+                    </h2>
+                </header>
+                <div class="row">
+                    <!-- Coluna Esquerda -->
+                    <div class="col-md-6">
+                        <div class="accordion custom-accordion" id="faqAccordionLeft" role="tablist" aria-labelledby="faqAccordionLeft" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-delay="300">
+                            <!-- Pergunta 1 -->
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Como faço para agendar um horário?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordionLeft">
+                                    <div class="accordion-body">
+                                        Você pode agendar pelo nosso WhatsApp, ou diretamente em nosso estabelecimento.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pergunta 2 -->
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="350">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        É necessário pagar antecipadamente?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordionLeft">
+                                    <div class="accordion-body">
+                                        Para garantir sua reserva, solicitamos um pagamento antecipado de 30% do valor do serviço.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pergunta 3 -->
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="400">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Vocês oferecem atendimento sem agendamento?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordionLeft">
+                                    <div class="accordion-body">
+                                        Sim, sextas e sábados trabalhamos por ordem de chegada.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Coluna Direita -->
+                    <div class="col-md-6">
+                        <div class="accordion custom-accordion" id="faqAccordionRight" role="tablist" aria-labelledby="faqAccordionRight">
+                            <!-- Pergunta 4 -->
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="450">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Como posso cancelar ou reagendar?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordionRight">
+                                    <div class="accordion-body">
+                                        Para cancelar ou reagendar, entre em contato com pelo menos 3 horas de antecedência via WhatsApp.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pergunta 5 -->
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="500">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Há descontos para pacotes de serviços?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordionRight">
+                                    <div class="accordion-body">
+                                        Sim, temos descontos para pacotes de serviços combinados e para planos mensais de atendimento.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pergunta 6 -->
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out" data-aos-delay="550">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Como funciona o programa de fidelidade?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordionRight">
+                                    <div class="accordion-body">
+                                        A cada serviço realizado, você acumula pontos que podem ser trocados por descontos ou serviços gratuitos.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção Sobre Nós -->
+        <section id="sobre-nos" class="sobre-nos py-5" aria-labelledby="sobre-nos-title" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Imagem à Esquerda -->
+                    <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        <img src="https://via.placeholder.com/500x500" alt="Imagem Representativa" class="img-fluid rounded shadow-lg">
+                    </div>
+
+                    <!-- Texto à Direita -->
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        <header class="text-center text-md-start">
+                            <h2 id="sobre-nos-title" class="display-4 text-primary fw-bold mb-3 fs-2">Quem Somos</h2>
+                            <p class="fs-5 text-muted mb-4">
+                                Somos uma equipe dedicada, oferecendo serviços de qualidade e cuidados especiais para suas roupas e tecidos. Com paixão pelo que fazemos, estamos sempre prontos para garantir a melhor experiência.
+                            </p>
+                        </header>
+
+                        <!-- Redes Sociais -->
+                        <div class="d-flex justify-content-center justify-content-md-start mb-4">
+                            <a href="#" class="btn btn-outline-primary btn-icon mx-2" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-icon mx-2" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-icon mx-2" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+
+                        <!-- Botão de WhatsApp (com animação de "zoom-in") -->
+                    <div class="d-flex justify-content-start mt-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+                        <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+                        class="btn-custom btn-whatsapp text-white" 
+                        aria-label="Agendar um horário pelo WhatsApp" 
+                        target="_blank">
+                            <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
+                            Quero agendar uma higienização
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Script para o AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 1000, // Duração da animação
+        easing: 'ease-in-out', // Efeito de transição
+    });
+    </script>
+    <!-- Bootstrap JavaScript -->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Faz a rolagem ser suave
+            });
+        }
+    </script>
+    <!-- Scripts JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- Para jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> <!-- Para Popper.js -->
+    <script src="assets/css/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!-- JS do Bootstrap -->
+    <script src="https://kit.fontawesome.com/24e65aedd5.js" crossorigin="anonymous"></script>
+    <!-- Link para seu JavaScript personalizado, se houver -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/scroll.js"></script>
+</body>
+</html>

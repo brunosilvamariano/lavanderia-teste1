@@ -1,0 +1,223 @@
+:root {
+    /* Cores principais */
+    --cor-primaria: #4192fc; /* Azul padrão */
+    --cor-fundo: #ffffff;
+    --cor-menu: #232323;
+    --cor-texto-principal: #EAEAEA;
+    --cor-texto-secundario: #B0B0B0;
+    /* Cores de título e hover */
+    --cor-titulo: var(--cor-texto-principal);
+    --cor-hover: #ffd700; /* Amarelo para hover */
+    /* Cores para botões */
+    --cor-botao: var(--cor-primaria);
+    --cor-botao-hover: #1877f2;
+    /* Cores específicas de ícones de redes sociais */
+    --cor-github: #171515;
+    --cor-linkedin: #0077b5;
+    --cor-instagram: #e1306c;
+    --cor-facebook: #1877f2;
+    --cor-whatsapp: #25d366;
+    /* Outras cores */
+    --cor-erro: #B22222;
+    --cor-sucesso: #2E8B57;
+    /* Tons de cinza */
+    --cor-cinza-claro: #A9A9A9;
+    --cor-cinza-medio: #6C757D;
+    --cor-cinza-escuro: #343A40;
+    --cor-cinza-mais-escuro: #212529;
+    /* Espaçamentos */
+    --espacamento-secao: 80px;
+}
+* {
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 0px; /* Ajuste para header fixo */
+    overflow: hidden;
+    background: #F8F8FF;
+}
+html {
+    overflow-x: hidden;
+    font-size: 87.5%; /* Base de 14px */
+    font-family: Poppins, sans-serif;
+}
+/* Compensação do scroll para a altura do cabeçalho */
+section {
+    scroll-margin-top: 80px; /* Ajuste este valor conforme a altura do cabeçalho */
+}
+
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 60px; /* Ajuste menor para dispositivos móveis */
+    }
+}
+/**************************************** SEÇÃO BENEFICIOS ****************************************/
+header#home {
+   
+   /* background-image: url('../images/banner.png'); Substitua pelo caminho da sua imagem 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+  }
+
+  .space{
+    letter-spacing: 1px !important;
+  }
+
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para o botão personalizado */
+.btn-custom {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background: linear-gradient(45deg, #00c851, #007e33);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* Animação de hover */
+.btn-custom:hover {
+    background: linear-gradient(45deg, #007e33, #00c851);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Ícone com espaçamento */
+.btn-custom i {
+    font-size: 1.2rem;
+}
+
+/* Ajuste para texto */
+.btn-custom span {
+    margin-left: 8px;
+}
+/* Estilo geral dos cards */
+.card {
+    border-radius: 15px; /* Cantos arredondados */
+    overflow: hidden; /* Garante que o conteúdo não saia da borda */
+    transition: all 0.3s ease-in-out; /* Animação suave para o hover */
+}
+
+/* Efeito ao passar o mouse sobre o card */
+.card:hover {
+    transform: translateY(-10px); /* Levanta o card um pouco */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+}
+
+/* Corpo do card */
+.card-body {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Imagens dos ícones */
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+/* Efeito no ícone ao passar o mouse */
+.card:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone */
+}
+
+/* Títulos dos serviços */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+/* Cor do título no hover */
+.card:hover .card-title {
+    color: #007bff; /* Cor azul ao passar o mouse */
+}
+
+/* Descrição do card */
+.card-text {
+    transition: color 0.3s ease;
+}
+
+/* Cor da descrição no hover */
+.card:hover .card-text {
+    color: #555; /* Cor mais escura ao passar o mouse */
+}
+
+/* Adicionando um pequeno destaque ao card */
+.card:hover {
+    border: 1px solid #007bff; /* Borda azul */
+}
+
+.yellow{
+    text-shadow: 2px 2px 1px #00000048;
+    letter-spacing: 1px;
+}
+
+#informacoes {
+    background-image: linear-gradient(120deg, #e3eeff 0%, #ffffff 100%);
+
+}
+
+/****************************** Estilização da Seção de FAQ ******************************/
+
+.faq-section .accordion-item {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.faq-section .accordion-button {
+    background-color: var(--cor-acordeon-header);
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+.faq-section .accordion-button:focus {
+    box-shadow: none;
+}
+.faq-section .accordion-button:not(.collapsed) {
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+    border-radius: 8px 8px 0 0;
+}
+.faq-section .accordion-body {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid var(--cor-acordeon-header);
+}
+.faq-section .accordion-item:not(:last-of-type) .accordion-body {
+    border-bottom: none;
+}
+.faq-section .accordion-item:hover .accordion-button {
+    background-color: #444;
+}
+.faq-section p {
+    font-size: 1rem;
+}
+
+
