@@ -221,3 +221,87 @@ header#home {
 }
 
 
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer .map-container iframe {
+    border-radius: 10px;
+}
+
+footer .bi {
+    font-size: 18px;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 12px;
+}
+
+footer .btn-instagram {
+    background-color: #e4405f; /* Cor padrão do Instagram */
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+footer .btn-instagram:hover {
+    background-color: #c13584; /* Cor mais escura do Instagram */
+}
+
+footer .text-white a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .text-white a:hover {
+    text-decoration: underline;
+}
+
+footer .border-top {
+    border-top: 1px solid #666;
+}
+
+footer .bi-check-circle-fill {
+    color: #28a745; /* Cor verde para ícones de check */
+}
+
+footer .text-primary {
+    color: #007bff; /* Cor azul para o título "Nossos Serviços" */
+}
+
+footer .fs-5 {
+    font-size: 1.1rem; /* Aumentando o tamanho da fonte */
+}
+
+/* Botão WhatsApp Fixo */
+.btn-whatsapp-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Cor padrão do WhatsApp */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp-fixed:hover {
+    background-color: #128C7E; /* Cor mais escura do WhatsApp */
+}
+
+.btn-whatsapp-fixed i {
+    font-size: 22px;
+}
+
+/* Estilo do parágrafo "Lavanderia de qualidade" */
+footer figure figcaption {
+    font-style: italic;
+    color: #bbb;
+}
+
