@@ -1,76 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa de Higienização | Lavanderia</title>
-    <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- CSS personalizado -->
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <!-- Título da página -->
+        <title>Empresa de Higienização | Lavanderia de Qualidade</title>
+        
+        <!-- Descrição para SEO -->
+        <meta name="description" content="Oferecemos serviços de lavanderia especializados, incluindo limpeza de roupas, estofados e mais. Atendimento rápido e eficaz com qualidade garantida.">
+        
+        <!-- Palavras-chave para SEO -->
+        <meta name="keywords" content="lavanderia, serviços de lavanderia, higienização de roupas, limpeza de estofados, lavanderia rápida, lavanderia de qualidade">
+        
+        <!-- Autor da página -->
+        <meta name="author" content="Nome da Sua Empresa de Lavanderia">
+        
+        <!-- Tipo de conteúdo -->
+        <meta property="og:type" content="website">
+        
+        <!-- Imagem de pré-visualização (se tiver) -->
+        <meta property="og:image" content="URL_da_imagem_da_sua_empresa.jpg">
+        
+        <!-- URL canônica (ajuda a evitar conteúdo duplicado) -->
+        <link rel="canonical" href="URL_da_sua_página">
+    
+        <!-- Data de publicação -->
+        <meta name="date" content="2024-11-14" scheme="YYYY-MM-DD">
+        
+        <!-- Redes sociais -->
+        <meta property="og:title" content="Lavanderia de Qualidade - Higienização Profunda">
+        <meta property="og:description" content="Lavanderia especializada em limpeza de roupas e estofados com alta qualidade e eficiência. Conheça nossos serviços.">
+        <meta property="og:url" content="URL_da_sua_página">
+        <meta property="og:image" content="URL_da_imagem_da_sua_empresa.jpg">
+        
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Lavanderia de Qualidade - Higienização Profunda">
+        <meta name="twitter:description" content="Oferecemos serviços rápidos e eficientes de lavanderia para roupas e estofados. Agende o seu serviço agora!">
+        <meta name="twitter:image" content="URL_da_imagem_da_sua_empresa.jpg">
+    
+        <!-- Favicon -->
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+        
+        <!-- AOS CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+        <!-- CSS personalizado -->
+        <link rel="stylesheet" href="assets/css/main.css">
+    
+        <!-- Meta tag para robots (ajuda a melhorar a indexação nos motores de busca) -->
+        <meta name="robots" content="index, follow">
+    </head>
+    
 <body>
-    <!-- Header -->
+   <!-- Header -->
     <header id="home" class="container-fluid py-5 d-flex align-items-center min-vh-100" data-aos="fade-up" data-aos-duration="1500">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Conteúdo Principal -->
                 <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
-                <!-- Logo e Informações da Empresa -->
+                    <!-- Logo e Informações da Empresa -->
                     <div class="col-12 text-center text-lg-start" data-aos="fade-left" data-aos-duration="1500">
                         <!-- Logo da Empresa -->
                         <figure class="mb-4 mt-5 mt-lg-0">
                             <img src="assets/images/logo.png" alt="Logo da Lavanderia" class="img-fluid" style="max-width: 150px;">
                         </figure>
                     </div>
-                    <section aria-labelledby="section-title">
-                        <!-- Selo de Disponibilidade -->
-                        <div class="mb-3" aria-live="polite" data-aos="zoom-in" data-aos-duration="1500">
-                            <span class="badge bg-success rounded-pill py-2 px-3" role="status">
-                                <i class="bi bi-circle-fill me-1" aria-hidden="true"></i>
-                                <strong class="space">Disponível para Atendimento</strong>
-                            </span>
-                        </div>
-
-                        <!-- Título Principal -->
-                        <h1 id="section-title" class="display-4 fw-lighter text-dark-emphasis" aria-label="Título dos serviços" data-aos="fade-up" data-aos-duration="1500">
-                            Serviços de Lavanderia Profissional
-                        </h1>
-                        
-                        <!-- Descrição do Serviço -->
-                        <p class="h4 text-muted mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-                            <span class="fw-bold yellow text-primary">Cuidados de Qualidade</span> para suas roupas e itens especiais.
-                        </p>
-                        
-                        <p class="lead text-secondary mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
-                            Cuidamos de suas roupas com serviços de <strong>lavagem</strong> e <strong>higienização de alta qualidade</strong>, garantindo conveniência e resultados impecáveis.
-                        </p>
-
-                        <!-- Botão de WhatsApp -->
-                        <div class="d-flex justify-content-center justify-content-lg-start" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
-                            <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
-                            class="btn-custom btn-whatsapp text-white" 
-                            aria-label="Agendar um horário pelo WhatsApp" 
-                            target="_blank">
-                                <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
-                                Quero agendar uma higienização
-                            </a>
-                        </div>
-                    </section>
+                      <!-- Selo de Disponibilidade -->
+                      <div class="mb-3" aria-live="polite" data-aos="zoom-in" data-aos-duration="1500">
+                        <span class="badge bg-success rounded-pill py-2 px-3">
+                            <i class="bi bi-circle-fill me-1" aria-hidden="true"></i>
+                            <strong>Disponível para Atendimento</strong>
+                        </span>
+                    </div>
+                    <!-- Título e Descrição -->
+                    <h1 id="main-heading" class="display-4 fw-lighter text-dark-emphasis" data-aos="fade-up" data-aos-duration="1500">
+                        Serviços de Lavanderia Profissional
+                    </h1>
+                    
+                    <p role="doc-subtitle" class="h4 text-muted mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                        <span class="fw-bold yellow text-primary">Cuidados de Qualidade</span> para suas roupas e itens especiais.
+                    </p>
+                    
+                    <p class="lead text-secondary mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        Cuidamos de suas roupas com serviços de <strong>lavagem</strong> e <strong>higienização de alta qualidade</strong>, garantindo conveniência e resultados impecáveis.
+                    </p>
+      
+                    <!-- Botão de WhatsApp -->
+                    <div class="d-flex justify-content-center justify-content-lg-start" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                        <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+                        class="btn-custom btn-whatsapp text-white" 
+                        aria-label="Converse conosco no WhatsApp para agendar higienização" 
+                        target="_blank">
+                            <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
+                            Quero agendar uma higienização
+                        </a>
+                    </div>
                 </div>
                 <!-- Imagem Principal -->
                 <div class="col-12 col-lg-6 text-center text-lg-end mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="1500">
-                    <figure aria-labelledby="image-description">
-                        <img src="assets/images/banner-header.png" alt="Imagem ilustrativa de serviços de lavanderia" class="img-fluid img-hover" aria-describedby="image-description">
-                        <figcaption id="image-description" class="visually-hidden">Imagem representando serviços de lavanderia e cuidados com roupas.</figcaption>
+                    <figure>
+                        <img src="assets/images/banner-header.png" alt="Imagem ilustrativa de serviços de lavanderia" class="img-fluid img-hover">
+                        <figcaption class="visually-hidden">Imagem representando serviços de lavanderia e cuidados com roupas.</figcaption>
                     </figure>
                 </div>
             </div>
@@ -239,122 +284,128 @@
                 </div>
             </div>
         </section>
-       <!-- Seção Depoimentos -->
+        <!-- Seção Depoimentos -->
         <section id="testimonials" class="py-5 bg-light" aria-labelledby="testimonials-title" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear" data-aos-delay="300">
             <div class="container">
                 <!-- Título da Seção -->
                 <header class="text-center">
                     <h2 id="testimonials-title" class="section-title fw-bold text-primary mb-4 fs-2">Depoimentos dos Clientes</h2>
                     <p class="text-muted">Veja o que nossos clientes dizem sobre nossos serviços</p>
-                </header>
+                </header>              
                 <!-- Carrossel de Depoimentos -->
                 <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" aria-labelledby="testimonials-title">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner">                       
                         <!-- Slide 1 -->
-                        <article class="carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1">
+                        <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="Depoimentos dos Clientes - Slide 1">
                             <div class="row flex-nowrap justify-content-center">
-                                <div class="col-md-4 col-12 mb-4">
-                                    <div class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
+                                <!-- Testimonial 1 -->
+                                <article class="col-md-4 col-12 mb-4">
+                                    <figure class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
                                         <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente João Silva" width="70" height="70">
-                                        <h5 class="fw-bold">João Silva</h5>
-                                        <div class="text-warning mb-2">
+                                        <figcaption class="fw-bold">João Silva</figcaption>
+                                        <div class="text-warning mb-2" aria-label="Avaliação 4.5 estrelas">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-half"></i>
                                         </div>
-                                        <p class="text-muted">"Ótimo atendimento e serviço de alta qualidade. "</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-4">
-                                    <div class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
+                                        <blockquote class="text-muted">"Ótimo atendimento."</blockquote>
+                                    </figure>
+                                </article>        
+                                <!-- Testimonial 2 -->
+                                <article class="col-md-4 col-12 mb-4">
+                                    <figure class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
                                         <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Maria Oliveira" width="70" height="70">
-                                        <h5 class="fw-bold">Maria Oliveira</h5>
-                                        <div class="text-warning mb-2">
+                                        <figcaption class="fw-bold">Maria Oliveira</figcaption>
+                                        <div class="text-warning mb-2" aria-label="Avaliação 5 estrelas">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <p class="text-muted">"Minha experiência foi excelente! Super recomendo o serviço."</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-4">
-                                    <div class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
+                                        <blockquote class="text-muted">"Excelente! Super recomendo o serviço."</blockquote>
+                                    </figure>
+                                </article>        
+                                <!-- Testimonial 3 -->
+                                <article class="col-md-4 col-12 mb-4">
+                                    <figure class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
                                         <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Carlos Lima" width="70" height="70">
-                                        <h5 class="fw-bold">Carlos Lima</h5>
-                                        <div class="text-warning mb-2">
+                                        <figcaption class="fw-bold">Carlos Lima</figcaption>
+                                        <div class="text-warning mb-2" aria-label="Avaliação 5 estrelas">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <p class="text-muted">"Equipe de confiança e serviço impecável."</p>
-                                    </div>
-                                </div>
+                                        <blockquote class="text-muted">"Serviço impecável."</blockquote>
+                                    </figure>
+                                </article>
                             </div>
-                        </article> 
-                         <!-- Slide 1 -->
-                         <article class="carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1">
+                        </div>       
+                        <!-- Slide 2 -->
+                        <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="Depoimentos dos Clientes - Slide 2">
                             <div class="row flex-nowrap justify-content-center">
-                                <div class="col-md-4 col-12 mb-4">
-                                    <div class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
-                                        <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente João Silva" width="70" height="70">
-                                        <h5 class="fw-bold">João Silva</h5>
-                                        <div class="text-warning mb-2">
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star-half"></i>
-                                        </div>
-                                        <p class="text-muted">"Ótimo atendimento e serviço de alta qualidade"</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-4">
-                                    <div class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
-                                        <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Maria Oliveira" width="70" height="70">
-                                        <h5 class="fw-bold">Maria Oliveira</h5>
-                                        <div class="text-warning mb-2">
+                                <!-- Testimonial 4 -->
+                                <article class="col-md-4 col-12 mb-4">
+                                    <figure class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
+                                        <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Pedro Santos" width="70" height="70">
+                                        <figcaption class="fw-bold">Pedro Santos</figcaption>
+                                        <div class="text-warning mb-2" aria-label="Avaliação 5 estrelas">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <p class="text-muted">"Minha experiência foi excelente! Super recomendo o serviço."</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-12 mb-4">
-                                    <div class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
-                                        <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Carlos Lima" width="70" height="70">
-                                        <h5 class="fw-bold">Carlos Lima</h5>
-                                        <div class="text-warning mb-2">
+                                        <blockquote class="text-muted">"Profissionais de confiança!"</blockquote>
+                                    </figure>
+                                </article>
+                                  <!-- Testimonial 4 -->
+                                  <article class="col-md-4 col-12 mb-4">
+                                    <figure class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
+                                        <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Pedro Santos" width="70" height="70">
+                                        <figcaption class="fw-bold">Pedro Santos</figcaption>
+                                        <div class="text-warning mb-2" aria-label="Avaliação 5 estrelas">
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
-                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star-fill"></i>
                                         </div>
-                                        <p class="text-muted">"Equipe de confiança e serviço impecável."</p>
-                                    </div>
-                                </div>
+                                        <blockquote class="text-muted">"Profissionais de confiança!"</blockquote>
+                                    </figure>
+                                </article>
+                                  <!-- Testimonial 4 -->
+                                  <article class="col-md-4 col-12 mb-4">
+                                    <figure class="testimonial-card border rounded shadow-sm p-3 text-center bg-white">
+                                        <img src="https://via.placeholder.com/70" class="rounded-circle mb-3" alt="Foto de cliente Pedro Santos" width="70" height="70">
+                                        <figcaption class="fw-bold">Pedro Santos</figcaption>
+                                        <div class="text-warning mb-2" aria-label="Avaliação 5 estrelas">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <blockquote class="text-muted">"Profissionais de confiança!"</blockquote>
+                                    </figure>
+                                </article>
                             </div>
-                        </article>
-                    </div>                  
-                    <!-- Indicadores de Navegação do Carrossel -->
-                    <div class="d-flex justify-content-center mt-4" aria-label="Indicadores de slides de depoimentos">
+                        </div>
+                    </div>
+                    <!-- Carousel Indicators -->
+                    <div class="d-flex justify-content-center mt-4" aria-label="Indicadores de navegação dos slides de depoimentos">
                         <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active mx-2" aria-current="true" aria-label="Slide 1" style="background-color: #066cf1; border: none; width: 40px; height: 5px;"></button>
                         <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" class="mx-2" aria-label="Slide 2" style="background-color: #066cf1; border: none; width: 40px; height: 5px;"></button>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>      
         <!-- Seção Faq -->
-        <section class="faq-section py-5" id="faq" aria-labelledby="faq-title">
+        <section class="faq-section py-5" id="faq" role="region" aria-labelledby="faq-title">
             <div class="container">
                 <header class="text-center mb-5 bg-transparent">
                     <h2 id="faq-title" class="section-title text-primary fw-bold mb-4 fs-2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-delay="200">
@@ -373,7 +424,7 @@
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordionLeft">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" aria-labelledby="headingOne">
                                         Você pode agendar a lavagem das suas roupas pelo nosso WhatsApp ou através de nosso site.
                                     </div>
                                 </div>
@@ -386,7 +437,7 @@
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordionLeft">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" aria-labelledby="headingTwo">
                                         Não é necessário pagar antecipadamente, mas recomendamos o pagamento no momento da entrega das roupas.
                                     </div>
                                 </div>
@@ -399,7 +450,7 @@
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordionLeft">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" aria-labelledby="headingThree">
                                         Sim, você pode trazer suas roupas diretamente à nossa loja durante o horário de funcionamento, sem necessidade de agendamento.
                                     </div>
                                 </div>
@@ -417,7 +468,7 @@
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordionRight">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" aria-labelledby="headingFour">
                                         Sim, você pode cancelar ou reagendar o serviço com pelo menos 24 horas de antecedência através do WhatsApp.
                                     </div>
                                 </div>
@@ -430,7 +481,7 @@
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordionRight">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" aria-labelledby="headingFive">
                                         Sim, oferecemos descontos para pacotes de lavagem de roupas em grandes quantidades ou para clientes regulares.
                                     </div>
                                 </div>
@@ -443,7 +494,7 @@
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordionRight">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" aria-labelledby="headingSix">
                                         A cada 10 serviços realizados, você ganha 1 lavagem grátis ou um desconto no próximo serviço.
                                     </div>
                                 </div>
@@ -452,14 +503,17 @@
                     </div>
                 </div>
             </div>
-        </section>      
-       <!-- Seção Sobre Nós -->
+        </section>
+      <!-- Seção Sobre Nós -->
         <section id="sobre-nos" class="sobre-nos py-5" aria-labelledby="sobre-nos-title">
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Imagem à Esquerda com Animação Melhorada -->
                     <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300" data-aos-easing="ease-in-out">
-                        <img src="assets/images/banner_about.png" alt="Imagem Representativa" class="img-fluid rounded shadow-lg">
+                        <figure class="figure">
+                            <img src="assets/images/banner_about.png" alt="Equipe cuidando de roupas com carinho" class="img-fluid rounded shadow-lg" />
+                            <figcaption class="visually-hidden">Imagem da nossa equipe atendendo clientes com dedicação.</figcaption>
+                        </figure>
                     </div>
                     <!-- Texto à Direita com Efeito de Aparição Gradual -->
                     <div class="col-md-6">
@@ -473,7 +527,10 @@
                         </header>
                         <!-- Botão de WhatsApp com Animação de Zoom-In Suave -->
                         <div class="d-flex mt-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="800">
-                            <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." class="btn-custom btn-whatsapp text-white" aria-label="Agendar um horário pelo WhatsApp" target="_blank">
+                            <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." 
+                            class="btn-custom btn-whatsapp text-white" 
+                            aria-label="Agendar um horário pelo WhatsApp" 
+                            target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>
                                 Quero agendar uma higienização
                             </a>
@@ -488,7 +545,7 @@
         <div class="container">
             <div class="row">
                 <!-- Mapa pequeno à Esquerda -->
-                <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
+                <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-duration="1000">
                     <h5 class="fw-bold mb-3">Localização</h5>
                     <div class="map-container mb-3">
                         <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
@@ -499,21 +556,21 @@
                 </div>
 
                 <!-- Logo e Parágrafo -->
-                <div class="col-12 col-md-4 mb-4 text-center">
+                <div class="col-12 col-md-4 mb-4 text-center" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                     <figure>
                         <img src="assets/images/logo.png" alt="Logo da Lavanderia" width="120" height="auto" class="mb-3">
                         <figcaption class="mb-3">Lavanderia de qualidade, cuidando dos seus itens com carinho.</figcaption>
                     </figure>
                     <div class="mt-3">
-                        <a href="https://www.instagram.com/nomedousuario" target="_blank" class="btn btn-instagram text-white d-flex align-items-center justify-content-center py-2 px-4">
+                        <a href="https://www.instagram.com/nomedousuario" target="_blank" class="btn btn-instagram text-white d-flex align-items-center justify-content-center py-2 px-4" aria-label="Siga-nos no Instagram">
                             <i class="bi bi-instagram me-2"></i>
                             Siga-nos no Instagram
                         </a>
                     </div>
                 </div>
-
+                
                 <!-- Nossos Serviços -->
-                <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
+                <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="400">
                     <h5 class="fw-bold mb-3">Nossos Serviços</h5>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-check-circle-fill me-2"></i>Lavagem de Roupas</li>
@@ -523,17 +580,16 @@
                     </ul>
                 </div>
             </div>
-
             <!-- Copy e Desenvolvido por -->
             <div class="row mt-5 pt-4 border-top">
                 <div class="col-12 text-center">
-                    <p class="mb-0">&copy; 2024 Lavanderia Exemplo. Desenvolvido por <strong><a href="https://www.seusite.com" class="text-white">Seu Nome</a></strong></p>
+                    <p class="mb-0">&copy; 2024 Lavanderia Exemplo. Desenvolvido por <strong><a href="https://www.seusite.com" class="text-white" aria-label="Visite nosso site">BHK DevXpert</a></strong></p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Botão WhatsApp Fixo -->
-    <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." target="_blank" class="btn-whatsapp-fixed d-flex align-items-center justify-content-center">
+    <a href="https://wa.me/47991597258?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." target="_blank" class="btn-whatsapp-fixed d-flex align-items-center justify-content-center" aria-label="Falar com a gente no WhatsApp">
         <i class="bi bi-whatsapp me-2"></i>
     </a>
     <!-- Script para o AOS -->
