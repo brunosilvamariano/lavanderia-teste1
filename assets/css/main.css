@@ -5,48 +5,59 @@
     --cor-menu: #232323;
     --cor-texto-principal: #EAEAEA;
     --cor-texto-secundario: #B0B0B0;
+    
     /* Cores de título e hover */
     --cor-titulo: var(--cor-texto-principal);
     --cor-hover: #ffd700; /* Amarelo para hover */
+    
     /* Cores para botões */
     --cor-botao: var(--cor-primaria);
     --cor-botao-hover: #1877f2;
+    
     /* Cores específicas de ícones de redes sociais */
     --cor-github: #171515;
     --cor-linkedin: #0077b5;
     --cor-instagram: #e1306c;
     --cor-facebook: #1877f2;
     --cor-whatsapp: #25d366;
+    
     /* Outras cores */
     --cor-erro: #B22222;
     --cor-sucesso: #2E8B57;
+    
     /* Tons de cinza */
     --cor-cinza-claro: #A9A9A9;
     --cor-cinza-medio: #6C757D;
     --cor-cinza-escuro: #343A40;
     --cor-cinza-mais-escuro: #212529;
+    
     /* Espaçamentos */
     --espacamento-secao: 80px;
 }
+
+/* Reset de estilos gerais */
 * {
     text-decoration: none;
     list-style-type: none;
     border: none;
     box-sizing: border-box;
 }
+
 body {
     padding-top: 0px; /* Ajuste para header fixo */
     overflow: hidden;
-    background: #F8F8FF;
+    background: var(--cor-fundo);
 }
+
 html {
     overflow-x: hidden;
     font-size: 87.5%; /* Base de 14px */
     font-family: Poppins, sans-serif;
 }
+
 /* Compensação do scroll para a altura do cabeçalho */
 section {
-    scroll-margin-top: 80px; /* Ajuste este valor conforme a altura do cabeçalho */
+    scroll-margin-top: var(--espacamento-secao); /* Ajuste este valor conforme a altura do cabeçalho */
 }
 
 @media (max-width: 768px) {
@@ -54,20 +65,20 @@ section {
         scroll-margin-top: 60px; /* Ajuste menor para dispositivos móveis */
     }
 }
-/**************************************** SEÇÃO BENEFICIOS ****************************************/
+
+/**************************************** SEÇÃO BENEFÍCIOS ****************************************/
 header#home {
-   
-   /* background-image: url('../images/banner.png'); Substitua pelo caminho da sua imagem 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
-  }
+    /* background-image: url('../images/banner.png'); Substitua pelo caminho da sua imagem */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
 
-  .space{
+.space {
     letter-spacing: 1px !important;
-  }
+}
 
-  .responsive-img {
+.responsive-img {
     max-width: 100%;
     height: auto;
 }
@@ -103,6 +114,7 @@ header#home {
 .btn-custom span {
     margin-left: 8px;
 }
+
 /* Estilo geral dos cards */
 .card {
     border-radius: 15px; /* Cantos arredondados */
@@ -143,14 +155,14 @@ header#home {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #333;
+    color: var(--cor-cinza-escuro);
     margin-bottom: 1rem;
     transition: color 0.3s ease;
 }
 
 /* Cor do título no hover */
 .card:hover .card-title {
-    color: #007bff; /* Cor azul ao passar o mouse */
+    color: var(--cor-primaria); /* Cor azul ao passar o mouse */
 }
 
 /* Descrição do card */
@@ -160,34 +172,32 @@ header#home {
 
 /* Cor da descrição no hover */
 .card:hover .card-text {
-    color: #555; /* Cor mais escura ao passar o mouse */
+    color: var(--cor-cinza-medio); /* Cor mais escura ao passar o mouse */
 }
 
 /* Adicionando um pequeno destaque ao card */
 .card:hover {
-    border: 1px solid #007bff; /* Borda azul */
+    border: 1px solid var(--cor-primaria); /* Borda azul */
 }
 
-.yellow{
+.yellow {
     text-shadow: 2px 2px 1px #00000048;
     letter-spacing: 1px;
 }
 
 #informacoes {
     background-image: linear-gradient(120deg, #e3eeff 0%, #ffffff 100%);
-
 }
 
 /****************************** Estilização da Seção de FAQ ******************************/
-
 .faq-section .accordion-item {
-    background-color: #2a2a2a;
-    border: 1px solid #444;
+    background-color: var(--cor-cinza-escuro);
+    border: 1px solid var(--cor-cinza-medio);
     border-radius: 8px;
     margin-bottom: 10px;
 }
 .faq-section .accordion-button {
-    background-color: var(--cor-acordeon-header);
+    background-color: var(--cor-cinza-mais-escuro);
     color: #ffffff;
     border: none;
     font-weight: bold;
@@ -204,26 +214,25 @@ header#home {
     border-radius: 8px 8px 0 0;
 }
 .faq-section .accordion-body {
-    background-color: #333;
+    background-color: var(--cor-cinza-escuro);
     color: #ddd;
     padding: 20px;
     border-radius: 0 0 8px 8px;
-    border-top: 1px solid var(--cor-acordeon-header);
+    border-top: 1px solid var(--cor-cinza-mais-escuro);
 }
 .faq-section .accordion-item:not(:last-of-type) .accordion-body {
     border-bottom: none;
 }
 .faq-section .accordion-item:hover .accordion-button {
-    background-color: #444;
+    background-color: var(--cor-cinza-medio);
 }
 .faq-section p {
     font-size: 1rem;
 }
 
-
-
+/* Estilização do Footer */
 footer {
-    background-color: #343a40;
+    background-color: var(--cor-cinza-escuro);
     color: white;
 }
 
@@ -240,7 +249,7 @@ footer .list-unstyled li {
 }
 
 footer .btn-instagram {
-    background-color: #e4405f; /* Cor padrão do Instagram */
+    background-color: var(--cor-instagram); /* Cor padrão do Instagram */
     border-radius: 30px;
     padding: 10px 20px;
     text-decoration: none;
@@ -266,11 +275,11 @@ footer .border-top {
 }
 
 footer .bi-check-circle-fill {
-    color: #28a745; /* Cor verde para ícones de check */
+    color: var(--cor-sucesso); /* Cor verde para ícones de check */
 }
 
 footer .text-primary {
-    color: #007bff; /* Cor azul para o título "Nossos Serviços" */
+    color: var(--cor-primaria); /* Cor azul para o título "Nossos Serviços" */
 }
 
 footer .fs-5 {
@@ -282,27 +291,24 @@ footer .fs-5 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25D366; /* Cor padrão do WhatsApp */
+    background-color: var(--cor-whatsapp);
     color: white;
+    border: none;
     padding: 15px 20px;
-    border-radius: 50px;
-    font-size: 18px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
+/* Hover WhatsApp */
 .btn-whatsapp-fixed:hover {
-    background-color: #128C7E; /* Cor mais escura do WhatsApp */
+    background-color: #128C7E;
+    transform: translateY(-3px);
 }
 
-.btn-whatsapp-fixed i {
-    font-size: 22px;
+/* Tela cheia para os textos */
+body, h1, h2, h3, h4, h5, h6, p {
+    overflow-wrap: break-word;
 }
-
-/* Estilo do parágrafo "Lavanderia de qualidade" */
-footer figure figcaption {
-    font-style: italic;
-    color: #bbb;
-}
-
